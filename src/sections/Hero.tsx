@@ -175,6 +175,7 @@ export function Hero() {
                   value={s.value}
                   prefix={s.prefix}
                   suffix={s.suffix}
+                  immediate
                   className="block whitespace-nowrap font-display text-3xl text-accent sm:text-4xl lg:text-5xl"
                 />
                 <span className="label mt-1 block text-[0.62rem] text-muted lg:mt-0 lg:max-w-[6.5rem] lg:text-right">
